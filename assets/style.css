@@ -1,0 +1,104 @@
+* {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #A3B1B2;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px white;
+}
+
+.main-logo {
+    width: 10rem;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-link a{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.list-image {
+    width: 15rem;
+    height: auto;
+    margin: 3rem 1rem;
+}
+/*End Index Styling specific styling for recipes below*/
+
+.sub-header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sub-header h2 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.sub-header img {
+    width: 25rem;
+    height: auto;
+}
+
+.sub-header h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.sub-header p {
+    font-size: 1.5rem;
+}
+
+.ingredients {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ingredients h3 {
+    font-size: 2rem;
+}
+
+.ingredient-list li{
+    margin: 1rem 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.steps {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.steps h3 {
+    font-size: 2rem;
+}
+
+.steps-list li{
+    margin: 1rem 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
